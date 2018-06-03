@@ -1,0 +1,19 @@
+table, td, th {
+    /* border: solid 1px #D5D5FF; */
+    border-collapse: collapse;
+    color: #3737FF;
+    font-family: Arial, sans-serif;
+}
+table{
+    margin-top: 5px;
+}
+td, th{
+    padding: 5px;
+}
+th {
+    border-bottom: solid 2px #D5D5FF;
+    font-variant: small-caps;
+}
+tr:nth-child(2n + 1) td {
+    background-color: #F4F4FF;    
+}
