@@ -1,5 +1,5 @@
 <?php
-  include '../php/Employee.php';
+  include($_SERVER['DOCUMENT_ROOT']."/php+js/php/Employee.php");
   $host        = "host = localhost";
   $port        = "port = 5432";
   $dbname      = "dbname = postgres";

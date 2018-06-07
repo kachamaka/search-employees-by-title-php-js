@@ -1,9 +1,10 @@
+<h2>Search employees by title</h2>
+<select onchange="search()" id="title" name="title">
+<option selected disabled hidden>Choose title</option>
 <?php
-echo '<h2>Search employees by title</h2>';
-echo '<select onchange="search()" id="title" name="title">';
-echo '<option selected disabled hidden>Choose title</option>';
+include 'titles.php';
 foreach($titles as $title){
   echo "<option value=\"$title\">$title</option>";
 }
-echo '</select>';
 ?>
+</select>

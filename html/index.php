@@ -6,7 +6,6 @@
 </head>
 <body>
 	<?php
-		include '../php/titles.php';
 		include '../php/search.php';
 	?>
 	<table id = "el">
@@ -17,6 +16,6 @@
 		<tbody id = "tbody">
 		</tbody>
 	</table>
-	<script src="../js/search.js"></script> 
+	<script src="../js/search.js?v=1"></script> 
 </body>
 </html>

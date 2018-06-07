@@ -2,7 +2,7 @@ var xhttp = new XMLHttpRequest();
 let emps = [];
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        loadEmps(JSON.parse(this.response).employees);
+        loadEmps(JSON.parse(this.response));
     }
 };
 xhttp.open("GET", "../php/fetch_emp.php", true);
