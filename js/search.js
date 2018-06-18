@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 var xhttp = new XMLHttpRequest();
 let emps = [];
 xhttp.onreadystatechange = function() {
